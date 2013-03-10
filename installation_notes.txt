@@ -1,0 +1,14 @@
+﻿At MAMP:
+
+Database setup
+ART:
+myadmin
+myadminATartZERO
+
+COPENHAGEN:
+myadmin1
+myadminATcopenhagenZERO
+
+SONGBOOK:
+myadmin2
+myadminATsongbookZERO
