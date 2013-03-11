@@ -8,4 +8,6 @@ sites/*/settings*.php
 # Ignore files specific to shared hosting
 sites/sites.php
 art-of-touch
+copenhagen-chansonnier
+songbook-from-eldorado
 .gitignore
