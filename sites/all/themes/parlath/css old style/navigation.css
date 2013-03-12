@@ -1,0 +1,154 @@
+/* $Id$ */
+
+/**
+ * @file
+ * Navigation Styling
+ */
+
+
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #000;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation { 
+  background: #F0B900; 
+} 
+
+#navigation {
+  float: left; /* LTR */
+  width: 100%;
+  margin-left: 0; /* LTR */
+  margin-right: -100%; /* LTR */ /* Negative value of #navigation's width + left margin. */
+  padding: 0; /* DO NOT CHANGE. Add padding or margin to #navigation .section. */
+  height: 1.9em; /* The navigation can have any arbritrary height. We picked one
+                    that is the line-height plus 1em: 1.3 + 1 = 2.3
+                    Set this to the same value as the margin-top below. */
+}
+
+.with-navigation #content,
+.with-navigation .region-sidebar-first,
+.with-navigation .region-sidebar-second {
+  margin-top: 2.3em; /* Set this to the same value as the navigation height above. */
+}
+
+#navigation a { 
+  text-decoration: none; 
+} 
+
+#navigation a:link { 
+  color: #C93A03; 
+} 
+
+#navigation a:visited { 
+  color: #3D1101; 
+} 
+
+#navigation a:active { 
+  text-decoration: underline; 
+} 
+
+#navigation a:hover { 
+  text-decoration: underline; 
+}
+
+#navigation ul { 
+  float: left; 
+} 
+
+#navigation ul /* Primary and secondary links */ {
+  margin: 0;
+  padding-left: 5px;
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-variant: small-caps;
+  font-size: 0.9em;
+  text-align: left; /* LTR */
+}
+
+#navigation li /* A simple method to get navigation links to appear in one line. */ {
+  float: left; /* LTR */
+  padding: 3px 8px 0px 7px; /* LTR */
+}
+
+#navigation #secondary-prefix { 
+  float: left; 
+  padding-right: 10px; 
+} 
+
+.region-navigation {
+}
+
+/*
+ * Primary and Secondary menu links
+ */
+#main-menu {
+}
+
+#secondary-menu {
+}
+
+/*
+ * Menu blocks
+ */
+.block-menu {
+}
+
+/*
+ * "Menu block" blocks. See http://drupal.org/project/menu_block
+ */
+.block-menu_block {
+}
+
+
+/*
+ * Navigation
+ */
+
+
+#navigation .section {
+}
+
+#navigation .section a {
+}
+
+#navigation .section a:hover {
+}
+
+
+
+
+
+
+
+
+
+/** 
+ * Override default Nice Menu styles. We are only 
+ * targeting one particular block which contains a nice menu 
+ * with direction set to "right". 
+ */ 
+#block-nice_menus-1 ul.nice-menu { 
+  margin-left: 0.6em; 
+  padding-left: 0; 
+} 
+#block-nice_menus-1 ul.nice-menu ul li, 
+#block-nice_menus-1 ul.nice-menu-right, 
+#block-nice_menus-1 ul.nice-menu-right li, 
+#block-nice_menus-1 ul.nice-menu-right ul ul { 
+  width: 13.5em; 
+} 
+#block-nice_menus-1 ul.nice-menu li, 
+#block-nice_menus-1 ul.nice-menu-right li.menuparent, 
+#block-nice_menus-1 ul.nice-menu-right li li.menuparent { 
+  background-color: #80AA00; 
+} 
+#block-nice_menus-1 ul.nice-menu-right li.menuparent:hover, 
+#block-nice_menus-1 ul.nice-menu-right li.over { 
+  background-color: #F0B900; 
+} 
+

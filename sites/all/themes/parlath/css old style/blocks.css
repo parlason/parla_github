@@ -1,0 +1,223 @@
+/* $Id$ */
+
+/**
+ * @file
+ * Block Styling
+ */
+
+
+.block /* Block wrapper */ {
+  margin-bottom: 20px;
+}
+
+.block.region-odd /* Zebra striping for each block in the region */ {
+}
+
+.block.region-even /* Zebra striping for each block in the region */ {
+}
+
+.block.odd /* Zebra striping independent of each region */ {
+}
+
+.block.even /* Zebra striping independent of each region */ {
+}
+
+.region-count-1 /* Incremental count for each block in the region */ {
+}
+
+.count-1 /* Incremental count independent of each region */ {
+}
+
+#block-fboauth-login .content {
+position: relative;
+top: 0.2em;
+}
+
+.region-sidebar-second .block h2.title /* Block title */ {
+font-size: 1.2em;
+width: 14em;
+position: relative;
+top: 0.0em;
+}
+
+.block p.fb-connect-text /* Facebook connect text */ {
+font-size: 0.72em;
+position: relative;
+top: -1em;
+width: 25em;
+}
+
+
+.region-sidebar-second .block .content /* Block's content wrapper */ {
+font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+font-size: 1em;
+list-style-type: none;
+position: relative;
+top: -0.5em;
+}
+
+.region-sidebar-second .block .content ul.menu /* menu ul */ {
+font-size: 0.82em;
+}
+
+
+.block.block-locale /* Language selection block pup */ {
+position: absolute;
+border: medium none;
+left: 49.7em;
+top: -3em;
+width: 25em;
+}
+
+.block-locale ul {
+font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+font-size: 0.9em;
+list-style-type: none;
+}
+
+.block-locale li {
+border-left: 1px solid grey;
+float: left;
+font-size: 90%;
+padding-left: 1.2em;
+padding-right: 1.2em;
+}
+
+#block-aggregator-category-1 /* Block for the latest news items in the first category */ {
+}
+
+#block-aggregator-feed-1 /* Block for the latest news items in the first feed */ {
+}
+
+#block-block-1 /* First administrator-defined block */ {
+}
+
+#block-blog-0 /* "Recent blog posts" block */ {
+}
+
+#block-book-0 /* "Book navigation" block for the current book's table of contents */ {
+}
+
+#block-comment-0 /* "Recent comments" block */ {
+}
+
+#block-forum-0 /* "Active forum topics" block */ {
+}
+
+#block-forum-1 /* "New forum topics" block */ {
+}
+
+#block-menu-primary-links /* "Primary links" block */ {
+}
+
+#block-menu-secondary-links /* "Secondary links" block */ {
+}
+
+#block-node-0 /* "Syndicate" block for primary RSS feed */ {
+}
+
+#block-poll-0 /* "Most recent poll" block */ {
+}
+
+#block-profile-0 /* "Author information" block for the profile of the page's author */ {
+}
+
+#block-search-0 /* "Search form" block */ {
+}
+
+#block-statistics-0 /* "Popular content" block */ {
+}
+
+#block-user-0 /* "User login form" block */ {
+}
+
+#block-user-1 /* "Navigation" block for Drupal navigation menu */ {
+}
+
+#block-user-2 /* "Who's new" block for a list of the newest users */ {
+}
+
+#block-user-3 /* "Who's online" block for a list of the online users */ {
+}
+
+/* Referrer block */
+
+#referrer-box {
+position: relative;
+top: 0px;
+}
+
+.fb-like, .twitter-tweet, .twitter-follow {
+float: left;
+}
+
+.twitter-follow {
+position: relative;
+top: 0px;
+left: -25px;
+}
+
+.twitter-tweet {
+position: relative;
+left: 7px;
+}
+
+.st_email {
+position: relative;
+padding-left: 4px;
+top: 1px;
+left: -25px;
+}
+
+span.stButton span.email, span.sharethis {
+    color: green;
+}
+
+
+/* Next concerts block in sidebar */
+.event-background-transparency-sidebar {
+position: absolute;
+top: -0.5em;
+left: -1em;
+width: 19.5em;
+height: 7.2em;
+background-color: #101010;
+/* background-color: #E0E0E0;
+background-color: #D8D8D8;  */
+filter;alpha(opacity=60);
+opacity: 0.4;
+-moz-opacity: 0.4;
+z-index: -1;
+}
+
+#event-container-sidebar {
+position: relative;
+font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+font-size: 0.7em;
+color: white;
+/* color: #383838; */
+list-style-type: none;
+line-height: 1.5em;
+left: -1em;
+margin-bottom: 2em;
+}
+
+#event-container-sidebar a {
+color: /* #383838 */ white;
+}
+
+#event-venue-sidebar p {
+margin: 0em;
+}
+
+.region-sidebar-second .view-event-list {
+margin-top: 1em;
+position: relative;
+top: 0em;
+}
+
+#event-title-sidebar {
+font-size: 1.1em;
+position: relative;
+left: -0em;
+}
