@@ -40,7 +40,31 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 0.8em;
+  font-weight: lighter;
 }
+
+
+#navigation a {
+text-decoration: none;
+color: #A62F00;
+}
+
+#navigation a:hover {
+text-decoration: underline;
+font-size: 125%;
+}
+
+#navigation a:active {
+color: #A62F00;
+}
+
+#navigation a:visited {
+color: #A62F00;
+}
+
+
 
 #navigation .block {
   margin-bottom: 0;
@@ -66,7 +90,7 @@ li a.active {
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
   float: left; /* LTR */
-  padding: 0 10px 0 0; /* LTR */
+  padding: 0 15px 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
 }
@@ -100,4 +124,46 @@ li a.active {
  */
 
 .block-menu-block {
+}
+
+/* Language switcher */
+
+#block-locale-language a { /* Language switcher block */
+	color: green;
+    text-decoration: none;
+}
+
+#block-locale-language a:hover { /* Language switcher block */
+    text-decoration: underline;
+}
+
+#block-locale-language a:active { /* Language switcher block */
+	color: green;
+    text-decoration: none;
+}
+
+#block-locale-language a:visited { /* Language switcher block */
+	color: green;
+    text-decoration: none;
+}
+
+/* Block links second sidebar */
+
+.region-sidebar-second .block a { /* Language switcher block */
+	color: #540EAD;
+    text-decoration: none;
+}
+
+.region-sidebar-second .block a:hover { /* Language switcher block */
+    text-decoration: underline;
+}
+
+.region-sidebar-second .block a:active { /* Language switcher block */
+	color: #540EAD;
+    text-decoration: none;
+}
+
+.region-sidebar-second .block a:visited { /* Language switcher block */
+	color: #540EAD;
+    text-decoration: none;
 }

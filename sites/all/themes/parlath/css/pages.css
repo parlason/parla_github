@@ -16,7 +16,9 @@ body {
   margin: 0;
   padding: 0;
   background: url("../images/roseton.png") no-repeat fixed 175px 100px transparent;
-  font-family: italiana;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-style: normal;
+  font-weight: normal;
 }
 
 #page {
@@ -85,10 +87,12 @@ body {
 }
 
 #site-slogan { /* The slogan (or tagline) of a website */
+  font-family: Josefin Sans;
+  font-weight: lighter;
   position: relative;
   top: -.4em;
   margin: 0;
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 .region-header { /* Wrapper for any blocks placed in the header region */
@@ -132,6 +136,14 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
+}
+
+h2 {
+margin-bottom: 0em;
+}
+
+p {
+margin-top: 0em;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */

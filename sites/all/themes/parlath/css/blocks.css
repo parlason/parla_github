@@ -21,6 +21,17 @@
 }
 
 h2.block-title { /* Block title */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4em;
+  color: #000
+
+}
+
+.region-sidebar-second .block p {
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+	font-size: 0.8em;
+	padding-left: 1em;
 }
 
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
@@ -48,6 +59,26 @@ h2.block-title { /* Block title */
 }
 
 #block-locale-language { /* Language switcher block */
+	border: medium none;
+	position: relative;
+	left: -0.6em;
+	top: -4.5em;
+	width: 20em;
+}
+
+#block-locale-language ul { /* Language switcher block */
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#block-locale-language li { /* Language switcher block */
+	border-left: 1px solid grey;
+    float: left;
+    font-size: 0.8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
 }
 
 #block-menu-menu-NAME { /* Custom menu block */

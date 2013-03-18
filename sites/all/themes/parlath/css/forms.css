@@ -76,6 +76,7 @@ a.button { /* Buttons used by contrib modules like Media */
 
 #user-login-form {
   text-align: left; /* LTR */
+  font-size: 80%;
 }
 
 /*
