@@ -19,6 +19,10 @@
   font-weight: bold;
 }
 
+article.node-page .form-type-item {
+  display: none;
+}
+
 .form-item label.option { /* The label for a radio button or checkbox */
   display: inline;
   font-weight: normal;
