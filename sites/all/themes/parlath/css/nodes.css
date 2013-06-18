@@ -26,6 +26,7 @@
 }
 
 .node ul.links { /* Node links. See also the ul.links declaration in the pages.css. */
+font-size: 0.8em;
 }
 
 .node-promoted { /* A node that has been promoted to the front page */
@@ -74,3 +75,10 @@
 .lt-ie8 .comment-unpublished > * {
   position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
 }
+
+/* Data display */
+.date-display-single {
+	font-family: 'EB Garamond';
+    font-style: normal;
+    font-weight: normal;
+    }

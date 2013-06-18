@@ -22,26 +22,89 @@
 
 h2.block-title { /* Block title */
   font-style: normal;
-  font-weight: normal;
-  font-size: 1.4em;
-  color: #000
-
+  font-weight: bold;
+  font-size: 3.8em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  color: green;
+  position: absolute;
+  top: -0.13em;
+  left: -0.53em;
 }
+
+#block-menu-title {
+	position: relative;
+	top: 6.5em;
+	left: 2.7em;
+	opacity: 0.2;
+
+	}
+	
+#block-menu-elements {
+	position: relative;
+	top: 3.7em;
+	left: 0.5em;
+	}
 
 .region-sidebar-second .block p {
-	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
-	font-size: 0.8em;
-	padding-left: 1em;
 }
 
+#second-sidebar-menu {
+	font-family: "de-walpergens-pica";
+	font-size: 1.1em;
+	line-height: 2em;
+	color: white;
+	}
+ 
+
+#main-menu-transparent {
+    position: relative;
+    top: 1em;
+    width: 59.5em;
+	background-color: #000;
+    height: 25px;
+    left: -0.6em;
+    opacity: 0.4;
+    z-index: -10;
+    }
+    
+#sidebar-menu-transparent {
+    position: relative;
+    top: -16.3em;
+    width: 200px;
+	background-color: #000;
+    height: 320px;
+    left: 3em;
+    opacity: 0.4;
+    z-index: -10;
+    }
+    
 #block-aggregator-category-1 { /* Block for the latest news items in the first category */
 }
 
 #block-aggregator-feed-1 { /* Block for the latest news items in the first feed */
 }
 
-#block-block-1 { /* First block created with "Add block" link */
+#block-block-1, #block-block-8 { /* First block created with "Add block" link */
+position: relative;
+top: 1em;
+left: 4em;
 }
+
+#block-block-4, #block-block-7 { /* First block created with "Add block" link */
+position: relative;
+top: -16em;
+left: 4em;
+width: 11.3em;
+}
+
+#block-block-4 p, #block-block-7 p { /* Fourth block created with "Add block" link */
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: normal;
+color: grey;
+}
+
 
 #block-blog-recent { /* "Recent blog posts" block */
 }
@@ -60,26 +123,176 @@ h2.block-title { /* Block title */
 
 #block-locale-language { /* Language switcher block */
 	border: medium none;
-	position: relative;
-	left: -0.6em;
-	top: -4.5em;
+	position: absolute;
+	left: 50.1em;
+	top: -0.3em;
 	width: 20em;
+	margin-bottom: 0em;
 }
 
 #block-locale-language ul { /* Language switcher block */
-	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+	font-size: 0.7em;
+	font-weight: 100;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
+    line-height: 1em;
 }
 
 #block-locale-language li { /* Language switcher block */
 	border-left: 1px solid grey;
     float: left;
-    font-size: 0.8em;
-    padding-left: 1.2em;
-    padding-right: 1.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
+
+
+/* Favicon gallery */
+
+.view-favicon-gallery {
+	position: relative;
+	top: 5px;
+	left: 31px;
+	width: 400px;
+	}
+	
+.view-favicon-gallery .views-row {
+	float: left;
+	}
+
+/* Gallery I */
+.views-field-field-photo-horizontal, .views-field-field-photo-vertical {
+	margin: 3px;
+	}
+
+/* Subscription form block */
+
+#subscription-text p {
+	position: relative;
+	top: -1em;
+	font-family: 'EB Garamond';
+	font-style: normal;
+	font-weight: normal;
+	}
+	
+#subscription-text p#subscription-header {
+	font-family: "de-walpergens-pica", serif;
+    font-style: normal;
+	font-size: 1.5em;
+	}
+
+#subscription-text p#sign-up {
+	font-size: 97%;
+	line-height: 1.3em;
+	color: grey;
+	position: relative;
+	top: -3.5em;
+	width: 12.5em;
+	}
+
+#subscription-form {
+    position: relative;
+    top: -3.8em;
+    left: 0em;
+    width: 180px;
+    }
+    
+ #subscription-form input{
+	font-size: 70%;
+	background-color: #909090;
+	color: white;
+	margin-bottom: 0.3em;
+    }
+    
+select#country {
+	font-size: 70%;
+	}
+	
+label#label-select {
+	position: relative;
+	top: -1.8em;
+	left: 2em;
+	font-family: 'EB Garamond';
+    font-style: normal;
+    font-size: 85%;
+	font-weight: normal;
+	}
+
+input#name {
+	position: relative;
+	top: 0em;
+	left: 0em;
+	width: 160px;
+	height: 1.8em;
+	}
+	
+	
+input#jhtjmt-jhtjmt, input#dtjdlk-dtjdlk  {
+	position: relative;
+	top: 0em;
+	left: 0em;
+	width: 160px;
+	height: 1.8em;
+	}
+	
+
+	
+select#country {
+	position: relative;
+	top: 0em;
+	left: 0em;
+	background-color: #909090;
+	color: white;
+	height: 2.2em;
+	font-size: 0.7em;
+	max-width: 170px;
+	}
+	
+p#for-organizers-text {
+	position: relative;
+	top: 1em;
+	width: 170px;
+	font-family: "de-walpergens-pica", serif;
+	font-size: 1.5em;
+	}
+	
+p#stay-updated {
+	font-size: 97%;
+	line-height: 1.3em;
+	color: grey;
+	position: relative;
+	top: -0.5em;
+	width: 12.5em;
+	}
+	
+div#check-box {
+	position: relative;
+	top: -1.4em;
+	left: 0em;
+	width: 170px;
+	}
+	
+	
+input#submit-form {
+	font-size: 1.2em;
+	padding: 5px 10px 5px 10px;
+	position: relative;
+	left: 1.1em;
+	top: 0.3em;
+	background-color: green;
+	}
+	
+	
+#subscription-block {
+	border: 0px solid grey;
+	padding: 15px;
+	position: relative;
+	top: -235px;
+	left: 48px;
+	width: 170px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+	}	
 
 #block-menu-menu-NAME { /* Custom menu block */
 }
