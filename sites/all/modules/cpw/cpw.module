@@ -1,7 +1,0 @@
-<?php
-/**
- * @file
- * Code for the cpw feature.
- */
-
-include_once 'cpw.features.inc';

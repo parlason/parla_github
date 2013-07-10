@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * cpw.views_default.inc
+ * concert_programs_views.views_default.inc
  */
 
 /**
  * Implements hook_views_default_views().
  */
-function cpw_views_default_views() {
+function concert_programs_views_views_default_views() {
   $export = array();
 
   $view = new view();
