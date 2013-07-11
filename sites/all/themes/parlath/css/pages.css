@@ -429,7 +429,7 @@ body.section-participants .views_slideshow_main {
 
 	}
 	
-#cv-title-transparent {
+.cv-title-transparent {
 	background-color: green;
     height: 34px;
     left: -0px;
@@ -440,13 +440,13 @@ body.section-participants .views_slideshow_main {
     z-index: 3;
     }
  
- #cv-title {
+ .cv-title {
  	font-family: josefin-sans, sans-serif;
  	font-size: 1.4em;
  	color: white;
  	font-weight: 600;
  	position: relative;
- 	top: -70px;
+ 	top: -35px;
  	left: 25px;
  	z-index: 4;
  	}
@@ -455,19 +455,22 @@ body.section-participants .views_slideshow_main {
 
 .views-field-field-cv-text {
 	position: relative;
-	top: -2em;
+	top: -0em;
 	height: 30em;
 	width: 33em;
 	}
 	
-.views-field-field-cv-text #collapse-text-background {
-	margin-left: -12px;
-	width: 510px;
-	height: 92%;
+.views-field-field-cv-text .collapse-text-background {
+	margin-left: -16px;
+	position: absolute;
+	background-color: grey;
+	opacity: 0.2;
+	width: 505px;
+	height: 95%;
 	}
 
-.views-field-field-cv-text #collapse-text-text {
-	padding-top: 2em;
+.views-field-field-cv-text .collapse-text-text {
+	padding-top: 0em;
 	}
 
 .section-participants .book-navigation {
@@ -476,15 +479,29 @@ body.section-participants .views_slideshow_main {
 	margin-bottom: 50px;
 	}
 
-#collapse-text-text ul {
+.collapse-text-text ul {
 	font-family: 'EB Garamond';
     font-style: normal;
     font-weight: normal;
 }
 
 .section-participants .collapse-text-text {
-	width: 31.4em;
+	width: 510px;
+	padding-top: 0em;
 	}
+	
+.section-participants .fieldset-wrapper .collapse-text-text {
+	width: 460px;
+	padding-top: 1.5em;
+	padding-left: 0.5em;
+	padding-bottom: 0.5em;
+	}
+	
+.section-participants .fieldset-wrapper {
+		position: relative;
+		top: -1.5em;
+		}
+
 
 /* Recordings page */
 
