@@ -596,10 +596,10 @@ p.cd-slideshow-tekst {
  	margin-right: 7px;
  	}
  	
-#video-index-title {
-    position: relative;
-    top: 105px;
-    left: 10px;
+.video-index-title {
+    position: absolute;
+    top: 124px;
+    left: 7px;
     z-index: 4;
      color: white;
 	-o-text-overflow: ellipsis;   /* Opera */
@@ -610,7 +610,7 @@ p.cd-slideshow-tekst {
     font-size: 0.7em;
  } 
  
- #video-index-title a:link {
+ .video-index-title a:link {
  	color: white;
  	}
 
@@ -618,13 +618,13 @@ p.cd-slideshow-tekst {
  	position: relative;
  	} 
  	
-#video-index-title-background-transparent {
+.video-index-title-background-transparent {
 	background-color: green;
     height: 19px;
     left: -0px;
     opacity: 0.6;
-    position: relative;
-    top: 127px;
+    position: absolute;
+    top: 128px;
     width: 194px;
     z-index: 3;
     }
