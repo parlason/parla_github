@@ -879,6 +879,9 @@ p#subtitle {
 p#teaser-text {
 	font-family: "de-walpergens-pica";
     font-size: 1.3em;
+    width: 31em;
+    position: relative;
+    left: 0.7em;
 	}
 
 	
@@ -889,16 +892,29 @@ h2#section-title {
 .section-post .node-post {
 	position: relative;
 	top: 1.5em;
+	padding-bottom: 6em;
 	}
 	
 .section-post #text-background {
 	background-color: grey;
     opacity: 0.1;
     position: absolute;
-    width: 690px;
-    height: 90%;
+    left: 0em;
+    top: -0.5em;
+    width: 650px;
+    height: 105%;
     margin-top: -15px;
+    z-index: -10;
     }
+    
+ .section-post .field-type-text-long {
+ 	position: relative;
+ 	top: 2em;
+ 	width: 37em;
+ 	padding-left: 1.2em;
+ 	padding-bottom: 1.5em;
+ 	
+ 	}
  
  p#body-text, #bc-player, #section-title {
  	padding-left: 15px;
