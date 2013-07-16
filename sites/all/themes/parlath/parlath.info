@@ -79,6 +79,7 @@ stylesheets[all][] = css/print.css
 
 ;scripts[] = js/script.js
 scripts[] = js/corrections.js
+;scripts[] = js/ipad_fix.js
 
 
 
