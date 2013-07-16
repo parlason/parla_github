@@ -638,6 +638,7 @@ height: 0em;
 .section-video .field-items {
 position: relative;
 top: 2em;
+left: 15px;
 }
 
 .section-video .book-navigation {
@@ -655,6 +656,7 @@ width: 30em;
 .section-press article.node-page {
 position: relative;
 top: -1em;
+left: 15px;
 }
 
 #photo-gallery-block {
