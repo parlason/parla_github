@@ -350,3 +350,17 @@ input#submit-form {
 
 #block-user-online { /* "Who's online" block for a list of the online users */
 }
+
+/*
+Media queries for iPad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	#block-locale-language {
+		visibility: visible;
+		left: 32.8em;
+		top: 3.3em;
+	}
+}
+

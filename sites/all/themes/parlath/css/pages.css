@@ -931,3 +931,24 @@ z-index: 10;
 .section-post h2#section-title {
 color: #696969;
 }
+
+/*
+Media queries for iPad */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	.region.region-sidebar-second.column.sidebar {
+		visibility: hidden;
+	}
+	#page {
+		margin-left: 50px;
+		  min-width: 1092px; /* 952px */
+	}
+	#main-menu-transparent {
+		max-width: 65.5em;
+	}
+	#name-and-slogan {
+		margin-left: -2em;
+		}
+}
