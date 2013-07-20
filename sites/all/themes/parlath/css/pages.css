@@ -961,6 +961,9 @@ and (orientation : portrait) {
 		}
 	.section-video .book-navigation {
 		min-width: 675px;
+		}	
+	article.node-page {
+		min-width: 675px;
 		}
 }
 
