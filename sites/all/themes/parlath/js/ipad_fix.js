@@ -13,7 +13,5 @@
 (function ($, Drupal, window, document, undefined) {
 
 
-// Code here
-
 
 })(jQuery, Drupal, this, this.document);

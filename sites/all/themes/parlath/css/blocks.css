@@ -359,7 +359,7 @@ and (max-device-width : 1024px)
 and (orientation : portrait) { 
 	#block-locale-language {
 		visibility: visible;
-		left: 32.8em;
+		left: 36.8em;
 		top: 3.3em;
 	}
 }
