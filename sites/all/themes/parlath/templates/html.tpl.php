@@ -82,14 +82,14 @@
   <?php if ($default_mobile_metatags): ?>
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
-    <?php /* added initial-scale=1 */ ?>
-    <meta name="viewport" content="width=device-width initial-scale=1"> 
+    <?php /* added initial-scale=1
+             <meta name="viewport" content="width=device-width initial-scale=1"> */ ?>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=10.0" />
   <?php endif; ?>
   <meta http-equiv="cleartype" content="on">
   
   <?php /* indexing is only for production sites */ ?>
   <meta name="robots" content="noindex" /> 
- 
 
   <?php print $styles; ?>
   <?php print $scripts; ?>
@@ -102,6 +102,19 @@
     <script src="<?php print $base_path . $path_to_zen; ?>/js/html5.js"></script>
     <![endif]-->
   <?php endif; ?>
+  
+   <script language="javascript" type="text/javascript">
+// ...
+// Optionally add a conditional here to check whether we are in Mobile Safari.
+// ...
+window.addEventListener('orientationchange', function() {
+    if (window.orientation == 0 || window.orientation == 180) {
+        // Reset scroll position if in portrait mode.
+        window.scrollTo(0, 0);
+    }
+}, false); 
+</script>
+  
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php if ($skip_link_text && $skip_link_anchor): ?>
