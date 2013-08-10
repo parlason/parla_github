@@ -62,7 +62,8 @@ h2.block-title { /* Block title */
 #main-menu-transparent {
     position: relative;
     top: 1em;
-    width: 59.5em;
+    width: auto/* 59.5em */;
+    margin-right: -20px; /* fill out whole area, move if problems in iPad */
 	background-color: #000;
     height: 25px;
     left: -0.6em;
@@ -72,7 +73,7 @@ h2.block-title { /* Block title */
     
 #sidebar-menu-transparent {
     position: relative;
-    top: -16.3em;
+    top: -16.4em;
     width: 200px;
 	background-color: #000;
     height: 320px;
@@ -125,9 +126,12 @@ color: grey;
 
 #block-locale-language { /* Language switcher block */
 	border: medium none;
-	position: absolute;
+/*	position: absolute;
 	left: 50.1em;
-	top: -0.3em;
+	top: -0.3em; */
+	position: relative;
+	left: 6.1em;
+	top: -3.3em;
 	width: 9.5em;
 	margin-bottom: 0em;
 }
@@ -154,8 +158,8 @@ color: grey;
 .view-favicon-gallery {
 	position: relative;
 	top: 5px;
-	left: 31px;
-	width: 400px;
+	left: -7.4em;/* -119px */;
+	width: 400px; 
 	}
 	
 .view-favicon-gallery .views-row {
@@ -363,3 +367,6 @@ and (orientation : portrait) {
 	}
 }
 
+#block-views-favicon-gallery-block {
+	height: 40px;
+	}
