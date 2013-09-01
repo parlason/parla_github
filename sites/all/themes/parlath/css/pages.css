@@ -409,7 +409,7 @@ top: -1.9em;
 body.section-participants .views-slideshow-pager-fields {
 position: relative;
 left: 535px;
-top: 54px;
+top: 50px;
 width: 150px;
 z-index: 3;
 }
@@ -418,7 +418,7 @@ body.section-participants .views_slideshow_main {
 display: block;
 width: 600px;
 position: relative;
-top: -120px;
+top: -210px;
 left: 20px;
 }
 
@@ -503,7 +503,6 @@ padding-bottom: 0.5em;
 position: relative;
 top: -1.5em;
 }
-
 
 /* Recordings page */
 
