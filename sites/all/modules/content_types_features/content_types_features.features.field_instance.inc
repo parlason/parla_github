@@ -341,7 +341,7 @@ function content_types_features_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 34,
+      'weight' => 5,
     ),
   );
 
@@ -395,7 +395,7 @@ function content_types_features_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 36,
+      'weight' => 7,
     ),
   );
 
@@ -435,7 +435,7 @@ function content_types_features_field_default_field_instances() {
         'rows' => 25,
       ),
       'type' => 'text_textarea',
-      'weight' => 37,
+      'weight' => 8,
     ),
   );
 
@@ -474,7 +474,7 @@ function content_types_features_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => 32,
+      'weight' => 1,
     ),
   );
 
@@ -524,7 +524,7 @@ function content_types_features_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 33,
+      'weight' => 4,
     ),
   );
 
@@ -574,7 +574,7 @@ function content_types_features_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 35,
+      'weight' => 6,
     ),
   );
 
@@ -620,7 +620,7 @@ function content_types_features_field_default_field_instances() {
       'module' => 'number',
       'settings' => array(),
       'type' => 'number',
-      'weight' => 38,
+      'weight' => 9,
     ),
   );
 
@@ -873,6 +873,246 @@ function content_types_features_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-concert_theme_element-field_presentation_text'
+  $field_instances['node-concert_theme_element-field_presentation_text'] = array(
+    'bundle' => 'concert_theme_element',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_presentation_text',
+    'label' => 'Presentation text',
+    'required' => 1,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 250,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 43,
+    ),
+  );
+
+  // Exported field_instance: 'node-concert_theme_element-field_sort_order'
+  $field_instances['node-concert_theme_element-field_sort_order'] = array(
+    'bundle' => 'concert_theme_element',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_integer',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_sort_order',
+    'label' => 'Sort order',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 46,
+    ),
+  );
+
+  // Exported field_instance: 'node-concert_theme_element-field_theme_image'
+  $field_instances['node-concert_theme_element-field_theme_image'] = array(
+    'bundle' => 'concert_theme_element',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'concert_theme_image',
+        ),
+        'type' => 'image',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_theme_image',
+    'label' => 'Theme image',
+    'required' => 1,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => 'Concert_theme_images',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 41,
+    ),
+  );
+
+  // Exported field_instance: 'node-concert_theme_element-field_theme_image_thumbnail'
+  $field_instances['node-concert_theme_element-field_theme_image_thumbnail'] = array(
+    'bundle' => 'concert_theme_element',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'concert_theme_thumbnail',
+        ),
+        'type' => 'image',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_theme_image_thumbnail',
+    'label' => 'Theme image thumbnail',
+    'required' => 1,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => 'Concert_theme_images',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'thumbnail',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 42,
+    ),
+  );
+
+  // Exported field_instance: 'node-concert_theme_element-field_theme_link'
+  $field_instances['node-concert_theme_element-field_theme_link'] = array(
+    'bundle' => 'concert_theme_element',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'link',
+        'settings' => array(),
+        'type' => 'link_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_theme_link',
+    'label' => 'Theme link',
+    'required' => 0,
+    'settings' => array(
+      'attributes' => array(
+        'class' => '',
+        'configurable_title' => 0,
+        'rel' => '',
+        'target' => '_blank',
+        'title' => '',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'rel_remove' => 'default',
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
+      'user_register_form' => FALSE,
+      'validate_url' => 1,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'link',
+      'settings' => array(),
+      'type' => 'link_field',
+      'weight' => 44,
+    ),
+  );
+
   // Exported field_instance: 'node-favicon_element-field_favicon_image'
   $field_instances['node-favicon_element-field_favicon_image'] = array(
     'bundle' => 'favicon_element',
@@ -913,12 +1153,19 @@ function content_types_features_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'image',
+      'module' => 'media',
       'settings' => array(
+        'allowed_schemes' => array(
+          0 => 'public',
+          1 => 'private',
+        ),
+        'allowed_types' => array(
+          0 => 'image',
+        ),
         'preview_image_style' => 'thumbnail',
         'progress_indicator' => 'throbber',
       ),
-      'type' => 'image_image',
+      'type' => 'media_generic',
       'weight' => 31,
     ),
   );
@@ -1474,6 +1721,13 @@ function content_types_features_field_default_field_instances() {
         'type' => 'text_default',
         'weight' => 0,
       ),
+      'full' => array(
+        'label' => 'hidden',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 0,
+      ),
       'teaser' => array(
         'label' => 'hidden',
         'module' => 'text',
@@ -1507,21 +1761,17 @@ function content_types_features_field_default_field_instances() {
   // Exported field_instance: 'node-post-body'
   $field_instances['node-post-body'] = array(
     'bundle' => 'post',
-    'default_value' => array(
-      0 => array(
-        'summary' => '',
-        'value' => '<p id="teaser-text"></p>',
-        'format' => 'filtered_html',
-      ),
-    ),
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => 'Short text which will be visible at the Blog page',
     'display' => array(
       'default' => array(
         'label' => 'hidden',
         'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
+        'settings' => array(
+          'trim_length' => 600,
+        ),
+        'type' => 'text_summary_or_trimmed',
         'weight' => 1,
       ),
       'teaser' => array(
@@ -1551,51 +1801,7 @@ function content_types_features_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
-    ),
-  );
-
-  // Exported field_instance: 'node-post-field_background'
-  $field_instances['node-post-field_background'] = array(
-    'bundle' => 'post',
-    'default_value' => array(
-      0 => array(
-        'value' => '<div id="text-nbackground">&nbsp;</div>',
-      ),
-    ),
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 3,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_background',
-    'label' => 'Background',
-    'required' => 0,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 50,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 32,
+      'weight' => 4,
     ),
   );
 
@@ -1617,7 +1823,7 @@ function content_types_features_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 2,
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -1641,7 +1847,7 @@ function content_types_features_field_default_field_instances() {
         'rows' => 30,
       ),
       'type' => 'text_textarea',
-      'weight' => 33,
+      'weight' => 6,
     ),
   );
 
@@ -1651,7 +1857,7 @@ function content_types_features_field_default_field_instances() {
     'default_value' => array(
       0 => array(
         'value' => '<p id="subtitle">&nbsp;-&nbsp;</p>',
-        'format' => 'filtered_html',
+        'format' => 'full_html',
       ),
     ),
     'deleted' => 0,
@@ -1686,7 +1892,7 @@ function content_types_features_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'text_textfield',
-      'weight' => -4,
+      'weight' => 1,
     ),
   );
 
@@ -2132,6 +2338,142 @@ function content_types_features_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-text_embedded_photo-field_embed_photo'
+  $field_instances['node-text_embedded_photo-field_embed_photo'] = array(
+    'bundle' => 'text_embedded_photo',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'image',
+        'settings' => array(
+          'image_link' => '',
+          'image_style' => 'text_embedded_photo',
+        ),
+        'type' => 'image',
+        'weight' => 0,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_embed_photo',
+    'label' => 'Embed photo',
+    'required' => 0,
+    'settings' => array(
+      'alt_field' => 1,
+      'default_image' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'png gif jpg jpeg',
+      'max_filesize' => '',
+      'max_resolution' => '',
+      'min_resolution' => '',
+      'title_field' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'image',
+      'settings' => array(
+        'preview_image_style' => 'text_embedded_photo',
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'image_image',
+      'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'node-text_embedded_photo-field_photo_text'
+  $field_instances['node-text_embedded_photo-field_photo_text'] = array(
+    'bundle' => 'text_embedded_photo',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 2,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_photo_text',
+    'label' => 'Photo text',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 0,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 60,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 4,
+    ),
+  );
+
+  // Exported field_instance: 'node-text_embedded_photo-field_sort_order'
+  $field_instances['node-text_embedded_photo-field_sort_order'] = array(
+    'bundle' => 'text_embedded_photo',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_integer',
+        'weight' => 1,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_sort_order',
+    'label' => 'Sort order',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 5,
+    ),
+  );
+
   // Exported field_instance: 'node-video_page-field_sort_order'
   $field_instances['node-video_page-field_sort_order'] = array(
     'bundle' => 'video_page',
@@ -2140,7 +2482,7 @@ function content_types_features_field_default_field_instances() {
     'description' => '',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'number',
         'settings' => array(
           'decimal_separator' => '.',
@@ -2159,14 +2501,8 @@ function content_types_features_field_default_field_instances() {
       ),
       'rss' => array(
         'label' => 'above',
-        'module' => 'number',
-        'settings' => array(
-          'decimal_separator' => '.',
-          'prefix_suffix' => TRUE,
-          'scale' => 0,
-          'thousand_separator' => ' ',
-        ),
-        'type' => 'number_integer',
+        'settings' => array(),
+        'type' => 'hidden',
         'weight' => 2,
       ),
       'teaser' => array(
@@ -2224,10 +2560,10 @@ function content_types_features_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'media',
         'settings' => array(
-          'file_view_mode' => 'media_large',
+          'file_view_mode' => 'media_preview',
         ),
         'type' => 'media',
-        'weight' => 1,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -2296,7 +2632,7 @@ function content_types_features_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 0,
+        'weight' => 1,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -2351,7 +2687,7 @@ function content_types_features_field_default_field_instances() {
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
-        'weight' => 0,
+        'weight' => 4,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -2398,7 +2734,6 @@ function content_types_features_field_default_field_instances() {
   t('A section of text with a title');
   t('Audio link');
   t('Back cover');
-  t('Background');
   t('Body');
   t('CD link');
   t('CD text');
@@ -2411,6 +2746,7 @@ function content_types_features_field_default_field_instances() {
   t('Concert venue');
   t('Downloadable program');
   t('Downloadable text');
+  t('Embed photo');
   t('Enter a comma-separated list of words to describe your content.');
   t('Enter in format Name, Composer, Origen and century');
   t('Favicon image');
@@ -2421,9 +2757,11 @@ function content_types_features_field_default_field_instances() {
   t('Image');
   t('Link to downloadable text');
   t('Photo horizontal');
+  t('Photo text');
   t('Photo vertical');
   t('Photos with a horizontal orientation (1:1.33)');
   t('Photos with a vertical orientation (1.33:1)');
+  t('Presentation text');
   t('Program element');
   t('Program image');
   t('Short text which will be visible at the Blog page');
@@ -2433,6 +2771,9 @@ function content_types_features_field_default_field_instances() {
   t('Tags');
   t('Teaser');
   t('Text image');
+  t('Theme image');
+  t('Theme image thumbnail');
+  t('Theme link');
   t('Upload an image to go with this article.');
   t('Video URL');
   t('Video link');

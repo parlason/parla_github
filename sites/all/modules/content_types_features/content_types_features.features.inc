@@ -41,6 +41,14 @@ function content_types_features_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'concert_theme_element' => array(
+      'name' => t('Concert theme element'),
+      'base' => 'node_content',
+      'description' => t('A presentation of a concert theme by means of an image, an image thumbnail for view pager and a short description with a link to a dedicated page'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
     'favicon_element' => array(
       'name' => t('Favicon element'),
       'base' => 'node_content',
@@ -95,6 +103,14 @@ function content_types_features_node_info() {
       'description' => t('A press text in WORD for download'),
       'has_title' => '1',
       'title_label' => t('Press text title'),
+      'help' => '',
+    ),
+    'text_embedded_photo' => array(
+      'name' => t('Text embedded photo'),
+      'base' => 'node_content',
+      'description' => t('A photo meant for embedding in text'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
       'help' => '',
     ),
     'video_page' => array(

@@ -92,8 +92,16 @@ font-weight: 500;
  * Main menu and Secondary menu links
  */
 
+/* Added because of changes to ZEN */
 #main-menu {
+	outline: none;
 }
+
+#main-menu a:hover, #main-menu a:focus {
+text-decoration: underline;
+}
+
+/* --------- */
 
 #secondary-menu {
   float: right; /* LTR */
