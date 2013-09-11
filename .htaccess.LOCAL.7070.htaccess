@@ -3,11 +3,7 @@
 #
 
 # Protect files and directories from prying eyes.
-<<<<<<< HEAD
 <FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)$|^(\..*|Entries.*|Repository|Root|Tag|Template)$">
-=======
-<FilesMatch "\.(engine|inc|info|install|make|module|profile|test|po|sh|.*sql|theme|tpl(\.php)?|xtmpl)(~|\.sw[op]|\.bak|\.orig|\.save)?$|^(\..*|Entries.*|Repository|Root|Tag|Template)$|^#.*#$|\.php(~|\.sw[op]|\.bak|\.orig\.save)$">
->>>>>>> 7.23
   Order allow,deny
 </FilesMatch>
 
@@ -62,20 +58,6 @@ php_value memory_limit 128M
 <IfModule mod_rewrite.c>
   RewriteEngine on
 
-<<<<<<< HEAD
-=======
-  # Set "protossl" to "s" if we were accessed via https://.  This is used later
-  # if you enable "www." stripping or enforcement, in order to ensure that
-  # you don't bounce between http and https.
-  RewriteRule ^ - [E=protossl]
-  RewriteCond %{HTTPS} on
-  RewriteRule ^ - [E=protossl:s]
-
-  # Make sure Authorization HTTP header is available to PHP
-  # even when running as CGI or FastCGI.
-  RewriteRule ^ - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-
->>>>>>> 7.23
   # Block access to "hidden" directories whose names begin with a period. This
   # includes directories used by version control systems such as Subversion or
   # Git to store control files. Files whose names begin with a period, as well
