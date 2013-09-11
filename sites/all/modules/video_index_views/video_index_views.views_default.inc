@@ -91,8 +91,8 @@ function video_index_views_views_default_views() {
     'video_page' => 'video_page',
   );
 
-  /* Display: Block */
-  $handler = $view->new_display('block', 'Block', 'block');
+  /* Display: Block, English */
+  $handler = $view->new_display('block', 'Block, English', 'block');
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
@@ -116,6 +116,7 @@ function video_index_views_views_default_views() {
   $handler->display->display_options['filters']['language']['value'] = array(
     'en' => 'en',
   );
+  $handler->display->display_options['block_description'] = 'Video Index, English';
 
   /* Display: Block, Danish */
   $handler = $view->new_display('block', 'Block, Danish', 'block_1');
@@ -164,7 +165,8 @@ function video_index_views_views_default_views() {
     t('Desc'),
     t('<span class="video-index-title-background-transparent">&nbsp;</span>
 <span class="video-index-title">[title]</span>'),
-    t('Block'),
+    t('Block, English'),
+    t('Video Index, English'),
     t('Block, Danish'),
     t('Video index, Danish'),
   );
