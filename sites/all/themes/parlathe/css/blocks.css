@@ -48,6 +48,8 @@ width: 11.3em;
     left: 3em;
     opacity: 0.4;
     z-index: -10;
+    border: 1px solid;
+	border-radius: 7px;
     }
 
 #block-menu-title {
@@ -320,9 +322,11 @@ input#submit-form {
 	font-size: 1.2em;
 	padding: 5px 10px 5px 10px;
 	position: relative;
-	left: 1.1em;
+	left: 1.8em;
 	top: 0.3em;
 	background-color: green;
+	border: 2px solid;
+	border-radius: 10px;
 	}
 	
 #block-views-favicon-gallery-block {

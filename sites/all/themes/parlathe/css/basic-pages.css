@@ -1,3 +1,145 @@
+/* Participants page */
+
+/* body.section-participants #block-views-musician-cv-block, #block-views-musician-cv-block-1 {
+position: relative;
+top: -1.9em;
+} */
+
+
+body.section-participants .views-slideshow-pager-fields {
+position: relative;
+left: 543px;
+top: -263px;
+width: 150px;
+z-index: 3;
+padding-bottom: 20px;
+}
+
+.section-participants .views-slideshow-pager-field-item {
+padding-bottom: 3px;
+}
+
+body.section-participants .views_slideshow_main {
+display: block;
+width: 600px;
+position: relative;
+top: -38px;
+left: 20px;
+}
+
+.views-slideshow-cycle-main-frame-row-item .views-field-title {
+/* Necessary to expand the in-line width by jquery */
+width: 530px;
+}
+
+.cv-title-transparent {
+background-color: green;
+height: 34px;
+left: -0px;
+opacity: 0.4;
+position: relative;
+top: -40px;
+width: 250px;
+z-index: 3;
+}
+
+.cv-title {
+font-family: josefin-sans, sans-serif;
+font-size: 1.4em;
+color: white;
+font-weight: 600;
+position: relative;
+top: -35px;
+left: 3px;
+z-index: 4;
+}
+
+/* .flexslider .slides img {width: auto; display: block;} */
+
+.section-participants .fieldset-title {
+	position: relative;
+	top: -0.0em;
+	}
+
+.views-field-field-cv-text {
+position: relative;
+height: 30em;
+width: 31.0em;
+}
+
+.views-field-field-cv-text .collapse-text-background {
+margin-left: -16px;
+position: absolute;
+top: 0.8em;
+background-color: #808080;
+opacity: 0.2;
+width: 509px;
+height: 95%;
+}
+
+ a:hover {
+	color: #808080;
+	}
+
+.views-field-field-cv-text .collapse-text-text {
+padding-top: 0em;
+}
+
+.section-participants .book-navigation {
+position: relative;
+top: 5em;
+margin-bottom: 50px;
+}
+
+.collapse-text-text ul {
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: normal;
+}
+
+.section-participants .field-content a:hover {
+color: #808080;
+}
+
+.section-participants .collapse-text-text {
+width: 510px;
+padding-top: 0em;
+}
+
+.section-participants .fieldset-wrapper .collapse-text-text {
+position: relative;
+top: -1.0em;
+width: 460px;
+padding-top: 1.5em;
+padding-left: 0.5em;
+padding-bottom: 0.5em;
+}
+
+.section-participants .fieldset-wrapper {
+position: relative;
+top: 0em;
+}
+
+body.section-participants fieldset.collapse-text-fieldset {
+position: relative;
+top: -0.5em;
+border: 0px;
+margin: 0;
+}
+
+.views-field-field-cv-photo-first {
+	padding-right: 7px;
+	}
+
+.view-musician-cv {
+ 	position: relative;
+ 	top: 24px;
+ 	left: 10px;
+ 	}
+
+/* ____________________________________________________________________ */
+
+
 /* Via Artis Konsort page */
 
 .views-slideshow-cycle-main-frame {
@@ -179,6 +321,49 @@ margin-bottom: 7em;
 	top: -2.5em;
 	left: 2em;
 	}
+	
+.section-concert-theme #block-block-11, .section-concert-theme #block-block-12 {
+	position: relative;
+	top: 14.5em;
+	left: 2em;
+	width: 37em;
+	}
+	
+.section-concert-theme #collapse-text-background {
+	position: absolute;
+	background-color: #808080;
+	opacity: 0.2;
+	height: 80%;
+	width: 576px;
+	border: 1px solid;
+	border-radius: 7px;
+	}
+	
+.section-concert-theme .collapse-text-fieldset {
+	border: 0px;
+	position: relative;
+	top: -1em;
+	}
+	
+.section-concert-theme #collapse-text-text {
+	position: relative;
+	top: -0.8em;
+	}
+	
+.section-concert-theme p.text-header {
+	font-size: 1.2em;
+	position: relative;
+	left: 0.6em;
+	color: #585858;
+}
+
+.section-concert-theme p.text-header#in-english {
+	left: 0em;
+	}
+
+.section-concert-theme .collapsible a.fieldset-title {
+	font-size: 1.2em;
+}
 
 /* ____________________________________________________________________ */
 
