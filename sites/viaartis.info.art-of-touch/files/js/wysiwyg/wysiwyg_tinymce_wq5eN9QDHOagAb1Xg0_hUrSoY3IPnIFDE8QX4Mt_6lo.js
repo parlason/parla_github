@@ -1,1 +1,0 @@
-window.tinyMCEPreInit = {"base":"\/art-of-touch\/sites\/all\/libraries\/tinymce\/jscripts\/tiny_mce","suffix":"","query":""};
