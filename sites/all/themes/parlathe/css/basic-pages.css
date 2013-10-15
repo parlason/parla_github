@@ -151,7 +151,7 @@ margin: 0;
 	float: left;
 	}
 	
-#embedded-photo-text {
+.embedded-photo-text {
 	position: relative;
 	top: -3.4em;
 	left: 1.5em;
@@ -164,7 +164,7 @@ margin: 0;
 	top: -1.4em;
 	}
 	
-#embedded-photo-text-background {
+.embedded-photo-text-background {
 	display: block;
 	position: absolute;
 	background-color: black;
@@ -183,7 +183,7 @@ margin: 0;
 	}
 
 
-#embedded-photo img {
+.embedded-photo img {
 	border: 1px solid black;
 	}
 	
@@ -208,11 +208,11 @@ top: -3.4em;
 left: 2em;
 }
 
-#contact-text {
+.contact-text {
 width: 40em;
 }
 
-#contact-text a {
+.contact-text a {
 color: #808080;
 }
 
@@ -223,16 +223,16 @@ margin-right: 40px;
 float: left;
 }
 
-#contact-header {
+.contact-header {
 text-decoration: underline;
 margin-bottom: 1em;
 position: relative;
 top: 0.7em;
 }
 
-#contact-page {
+.contact-page {
 position: relative;
-top: 2em;
+top: 0.65em;
 margin-bottom: 7em;
 }
 
@@ -240,7 +240,7 @@ margin-bottom: 7em;
 
 
 /* Concert theme page */
-#theme-link-text {
+.theme-link-text {
 	position: relative;
 	top: 12.8em;
 	left: 0.5em;
@@ -252,7 +252,7 @@ margin-bottom: 7em;
 	color: white;
 	}
 	
-#theme-link-text a {
+.theme-link-text a {
 	color: white;
 	}
 	
@@ -272,7 +272,7 @@ margin-bottom: 7em;
     }
     
     
-#theme-presentation-text {
+.theme-presentation-text {
 	display: block;
 	position: relative;
 	top: -7.0em;
@@ -282,17 +282,17 @@ margin-bottom: 7em;
 	width: 38.5em;
 	}
 
-#theme-presentation-text p {	
+.theme-presentation-text p {	
 	font-family: "Courier New", "DejaVu Sans Mono", monospace;
 	}
 
 	
-#theme-presentation-text a {
+.theme-presentation-text a {
 	color: white;
 	}
 
 
-#theme-transparent-background-text {
+.theme-transparent-background-text {
 	display: block;
 	position: absolute;
 	background-color: black;
@@ -407,7 +407,7 @@ top: 2.5em;
 width: 510px;
 }
 
-#cd-title-background-transparent {
+.cd-title-background-transparent {
 position: absolute;
 top: -3px;
 left: 0px;
@@ -418,7 +418,7 @@ width: 509px;
 z-index: 3;
 }
 
-#cd-title {
+.cd-title {
 font-family: josefin-sans, sans-serif;
 font-size: 1.4em;
 color: white;
@@ -430,7 +430,7 @@ width: 400px;
 z-index: 4;
 }
 
-#cd-link {
+.cd-link {
 position: relative;
 top: 2em;
 }
@@ -640,7 +640,7 @@ left: 0.7em;
 }
 
 
-h2#section-title {
+h2.section-title {
 font-size: 1.5em;
 }
 
@@ -671,7 +671,7 @@ padding-bottom: 1.5em;
 
 }
 
-p#body-text, #bc-player, #section-title {
+p.body-text, #bc-player, #section-title {
 padding-left: 15px;
 }
 
