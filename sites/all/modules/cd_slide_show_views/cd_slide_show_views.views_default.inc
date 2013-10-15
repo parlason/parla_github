@@ -99,7 +99,7 @@ function cd_slide_show_views_views_default_views() {
     'field_front' => 'field_front',
     'field_back_cover' => 'field_back_cover',
   );
-  /* Felt: Indhold: Front cover */
+  /* Field: Content: Front cover */
   $handler->display->display_options['fields']['field_front']['id'] = 'field_front';
   $handler->display->display_options['fields']['field_front']['table'] = 'field_data_field_front';
   $handler->display->display_options['fields']['field_front']['field'] = 'field_front';
@@ -110,7 +110,7 @@ function cd_slide_show_views_views_default_views() {
     'image_style' => 'cd_cover',
     'image_link' => '',
   );
-  /* Felt: Indhold: Back cover */
+  /* Field: Content: Back cover */
   $handler->display->display_options['fields']['field_back_cover']['id'] = 'field_back_cover';
   $handler->display->display_options['fields']['field_back_cover']['table'] = 'field_data_field_back_cover';
   $handler->display->display_options['fields']['field_back_cover']['field'] = 'field_back_cover';
@@ -121,7 +121,7 @@ function cd_slide_show_views_views_default_views() {
     'image_style' => 'cd_cover',
     'image_link' => '',
   );
-  /* Felt: Indhold: Front cover thumbnail */
+  /* Field: Content: Front cover thumbnail */
   $handler->display->display_options['fields']['field_front_cover_thumbnail']['id'] = 'field_front_cover_thumbnail';
   $handler->display->display_options['fields']['field_front_cover_thumbnail']['table'] = 'field_data_field_front_cover_thumbnail';
   $handler->display->display_options['fields']['field_front_cover_thumbnail']['field'] = 'field_front_cover_thumbnail';
@@ -133,49 +133,49 @@ function cd_slide_show_views_views_default_views() {
     'image_style' => 'cd_cover_thumbmnail',
     'image_link' => '',
   );
-  /* Felt: Indhold: CD title */
+  /* Field: Content: CD title */
   $handler->display->display_options['fields']['field_cd_title']['id'] = 'field_cd_title';
   $handler->display->display_options['fields']['field_cd_title']['table'] = 'field_data_field_cd_title';
   $handler->display->display_options['fields']['field_cd_title']['field'] = 'field_cd_title';
   $handler->display->display_options['fields']['field_cd_title']['label'] = '';
   $handler->display->display_options['fields']['field_cd_title']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_cd_title']['alter']['text'] = '<div id="cd-title-background-transparent"></div>
-<div id="cd-title">[field_cd_title]</div>';
+  $handler->display->display_options['fields']['field_cd_title']['alter']['text'] = '<div class="cd-title-background-transparent"></div>
+<div class="cd-title">[field_cd_title]</div>';
   $handler->display->display_options['fields']['field_cd_title']['element_label_colon'] = FALSE;
-  /* Felt: Indhold: CD text */
+  /* Field: Content: CD text */
   $handler->display->display_options['fields']['field_cd_text']['id'] = 'field_cd_text';
   $handler->display->display_options['fields']['field_cd_text']['table'] = 'field_data_field_cd_text';
   $handler->display->display_options['fields']['field_cd_text']['field'] = 'field_cd_text';
   $handler->display->display_options['fields']['field_cd_text']['label'] = '';
   $handler->display->display_options['fields']['field_cd_text']['element_label_colon'] = FALSE;
-  /* Felt: Indhold: CD link */
+  /* Field: Content: CD link */
   $handler->display->display_options['fields']['field_cd_link']['id'] = 'field_cd_link';
   $handler->display->display_options['fields']['field_cd_link']['table'] = 'field_data_field_cd_link';
   $handler->display->display_options['fields']['field_cd_link']['field'] = 'field_cd_link';
   $handler->display->display_options['fields']['field_cd_link']['label'] = '';
   $handler->display->display_options['fields']['field_cd_link']['alter']['alter_text'] = TRUE;
-  $handler->display->display_options['fields']['field_cd_link']['alter']['text'] = '<p id="cd-link">[field_cd_link]</p>';
+  $handler->display->display_options['fields']['field_cd_link']['alter']['text'] = '<p class="cd-link">[field_cd_link]</p>';
   $handler->display->display_options['fields']['field_cd_link']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_cd_link']['click_sort_column'] = 'url';
-  /* Sorteringskriterie: Indhold: Sort order (field_sort_order) */
+  /* Sort criterion: Content: Sort order (field_sort_order) */
   $handler->display->display_options['sorts']['field_sort_order_value']['id'] = 'field_sort_order_value';
   $handler->display->display_options['sorts']['field_sort_order_value']['table'] = 'field_data_field_sort_order';
   $handler->display->display_options['sorts']['field_sort_order_value']['field'] = 'field_sort_order_value';
-  /* Filterkriterie: Indhold: Udgivet */
+  /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Filterkriterie: Indhold: Type */
+  /* Filter criterion: Content: Type */
   $handler->display->display_options['filters']['type']['id'] = 'type';
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'cd_slideshow_element' => 'cd_slideshow_element',
   );
-  /* Filterkriterie: Indhold: Sprog */
+  /* Filter criterion: Content: Language */
   $handler->display->display_options['filters']['language']['id'] = 'language';
   $handler->display->display_options['filters']['language']['table'] = 'node';
   $handler->display->display_options['filters']['language']['field'] = 'language';
@@ -193,21 +193,21 @@ function cd_slide_show_views_views_default_views() {
   $handler = $view->new_display('block', 'Block, English', 'block');
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filterkriterie: Indhold: Udgivet */
+  /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Filterkriterie: Indhold: Type */
+  /* Filter criterion: Content: Type */
   $handler->display->display_options['filters']['type']['id'] = 'type';
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'cd_slideshow_element' => 'cd_slideshow_element',
   );
-  /* Filterkriterie: Indhold: Sprog */
+  /* Filter criterion: Content: Language */
   $handler->display->display_options['filters']['language']['id'] = 'language';
   $handler->display->display_options['filters']['language']['table'] = 'node';
   $handler->display->display_options['filters']['language']['field'] = 'language';
@@ -220,21 +220,21 @@ function cd_slide_show_views_views_default_views() {
   $handler = $view->new_display('block', 'Block, Danish', 'block_1');
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
-  /* Filterkriterie: Indhold: Udgivet */
+  /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
   $handler->display->display_options['filters']['status']['table'] = 'node';
   $handler->display->display_options['filters']['status']['field'] = 'status';
   $handler->display->display_options['filters']['status']['value'] = 1;
   $handler->display->display_options['filters']['status']['group'] = 1;
   $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
-  /* Filterkriterie: Indhold: Type */
+  /* Filter criterion: Content: Type */
   $handler->display->display_options['filters']['type']['id'] = 'type';
   $handler->display->display_options['filters']['type']['table'] = 'node';
   $handler->display->display_options['filters']['type']['field'] = 'type';
   $handler->display->display_options['filters']['type']['value'] = array(
     'cd_slideshow_element' => 'cd_slideshow_element',
   );
-  /* Filterkriterie: Indhold: Sprog */
+  /* Filter criterion: Content: Language */
   $handler->display->display_options['filters']['language']['id'] = 'language';
   $handler->display->display_options['filters']['language']['table'] = 'node';
   $handler->display->display_options['filters']['language']['field'] = 'language';
@@ -258,10 +258,11 @@ function cd_slide_show_views_views_default_views() {
     t('‹ forrige'),
     t('næste ›'),
     t('sidste »'),
-    t('<div id="cd-title-background-transparent"></div>
-<div id="cd-title">[field_cd_title]</div>'),
-    t('<p id="cd-link">[field_cd_link]</p>'),
+    t('<div class="cd-title-background-transparent"></div>
+<div class="cd-title">[field_cd_title]</div>'),
+    t('<p class="cd-link">[field_cd_link]</p>'),
     t('Block, English'),
+    t('more'),
     t('CD slide show block, English'),
     t('Block, Danish'),
     t('CD slide show block, Danish'),

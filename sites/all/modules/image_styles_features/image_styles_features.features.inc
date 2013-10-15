@@ -30,6 +30,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'cd_cover',
   );
 
   // Exported image style: cd_cover_thumbmnail.
@@ -52,6 +53,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'cd_cover_thumbmnail',
   );
 
   // Exported image style: cv_photo.
@@ -74,6 +76,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'cv_photo',
   );
 
   // Exported image style: cv_photo_thumbnail.
@@ -96,6 +99,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'cv_photo_thumbnail',
   );
 
   // Exported image style: favicon_image.
@@ -118,6 +122,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 2,
       ),
     ),
+    'label' => 'favicon_image',
   );
 
   // Exported image style: press_thumbnail_horizontal.
@@ -140,6 +145,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'press_thumbnail_horizontal',
   );
 
   // Exported image style: press_thumbnail_vertical.
@@ -162,6 +168,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'press_thumbnail_vertical',
   );
 
   // Exported image style: thumbnail_horizontal.
@@ -184,6 +191,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'thumbnail_horizontal',
   );
 
   // Exported image style: thumbnail_vertical.
@@ -206,6 +214,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'thumbnail_vertical',
   );
 
   // Exported image style: video_index_thumbnail.
@@ -228,6 +237,7 @@ function image_styles_features_image_default_styles() {
         'weight' => 1,
       ),
     ),
+    'label' => 'video_index_thumbnail',
   );
 
   return $styles;

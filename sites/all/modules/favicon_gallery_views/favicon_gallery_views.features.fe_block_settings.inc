@@ -33,7 +33,13 @@ function favicon_gallery_views_default_fe_block_settings() {
         'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'parlath',
-        'weight' => -11,
+        'weight' => -17,
+      ),
+      'parlathe' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'parlathe',
+        'weight' => -17,
       ),
       'seven' => array(
         'region' => '',
@@ -41,14 +47,8 @@ function favicon_gallery_views_default_fe_block_settings() {
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
-        'weight' => 0,
-      ),
     ),
-    'title' => '',
+    'title' => '<none>',
     'visibility' => 0,
   );
 

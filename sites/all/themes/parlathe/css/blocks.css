@@ -20,7 +20,7 @@
 .block.even { /* Zebra striping for each block in the region */
 }
 
-#block-block-10 {
+#block-block-9, #block-block-10 {
 position: relative;
 top: -33.5em;
 left: 4em;

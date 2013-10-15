@@ -909,7 +909,7 @@ function content_types_features_field_default_field_instances() {
         'size' => 250,
       ),
       'type' => 'text_textfield',
-      'weight' => 43,
+      'weight' => 6,
     ),
   );
 
@@ -955,7 +955,7 @@ function content_types_features_field_default_field_instances() {
       'module' => 'number',
       'settings' => array(),
       'type' => 'number',
-      'weight' => 46,
+      'weight' => 9,
     ),
   );
 
@@ -1005,7 +1005,7 @@ function content_types_features_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 41,
+      'weight' => 4,
     ),
   );
 
@@ -1055,7 +1055,7 @@ function content_types_features_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 42,
+      'weight' => 5,
     ),
   );
 
@@ -1109,7 +1109,47 @@ function content_types_features_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 44,
+      'weight' => 7,
+    ),
+  );
+
+  // Exported field_instance: 'node-concert_theme_element-field_theme_link_text_format'
+  $field_instances['node-concert_theme_element-field_theme_link_text_format'] = array(
+    'bundle' => 'concert_theme_element',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'text',
+        'settings' => array(),
+        'type' => 'text_default',
+        'weight' => 5,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_theme_link_text_format',
+    'label' => 'Theme link text format',
+    'required' => 0,
+    'settings' => array(
+      'text_processing' => 1,
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'text',
+      'settings' => array(
+        'size' => 120,
+      ),
+      'type' => 'text_textfield',
+      'weight' => 8,
     ),
   );
 
@@ -2774,6 +2814,7 @@ function content_types_features_field_default_field_instances() {
   t('Theme image');
   t('Theme image thumbnail');
   t('Theme link');
+  t('Theme link text format');
   t('Upload an image to go with this article.');
   t('Video URL');
   t('Video link');
