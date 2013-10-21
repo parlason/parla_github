@@ -179,7 +179,7 @@ margin: 0;
 	position: relative;
 	top: -2.2em;
 	left: 2em;
-	width: 41em;
+	width: auto; /* 41em; */
 	}
 
 
@@ -568,11 +568,11 @@ width: 30em;
 color: #383838;
 }
 
-.section-video .block-views {
+ .section-video .view-video-index {
 	position: relative;
 	top: -3.5em;
 	left: 2.0em;
-	}
+	} 
 
 /* ____________________________________________________________________ */
 	
