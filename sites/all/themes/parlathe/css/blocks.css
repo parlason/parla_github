@@ -29,7 +29,7 @@ width: 11.3em;
 
 #main-menu-transparent {
     position: relative;
-    top: -1.60em;
+    top: -1.65em;
     width: auto/* 59.5em */;
     margin-right: -20px; /* fill out whole area, move if problems in iPad */
 	background-color: #000;
@@ -41,7 +41,7 @@ width: 11.3em;
     
 #sidebar-menu-transparent {
     position: relative;
-    top: 3.55em;
+    top: 6.1em;
     width: 200px;
 	background-color: #000;
     height: 320px;
@@ -54,8 +54,9 @@ width: 11.3em;
 
 #block-menu-title {
 	position: relative;
-	top: -17em;
+	top: -14.5em;
 	left: 4.8em;
+	width: 10em;
 	opacity: 0.2;
 }
 
@@ -86,16 +87,15 @@ width: 11.3em;
 
 #block-locale-language {
 	border: medium none;
-	position: relative;
-	left: 6.1em;
-	top: -3.3em;
-	width: 9.5em;
+	display: block;
+	position: absolute;
+	top: -0.5em;
+	right: 0;
+	width: auto;
 	margin-bottom: 0em;
 	}
 
 #block-locale-language ul {
-	font-size: 0.7em;
-	font-weight: 100;
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
@@ -103,6 +103,9 @@ width: 11.3em;
 	}
 	
 #block-locale-language ul li {
+	font-size: 70%;
+	font-weight: 100;
+
 	border-left: 1px solid grey;
 	float: left;
 	padding-left: 0.5em;
@@ -132,7 +135,7 @@ width: 11.3em;
 
 #block-menu-elements {
 	position: relative;
-	top: -33.5em;
+	top: -31.0em;
 	left: 4.5em;
 	width: 11em;
 }
@@ -191,14 +194,17 @@ width: 11.3em;
 .view-favicon-gallery {
 	position: relative;
 	top: 5px;
-	left: -7.4em;
+	float: left;
+	left: 2em;
 	height: 40px;
-	width: 400px;
 	}
+
 	
 .view-favicon-gallery .views-row {
+	display: inline-block;
 	float: left;
 	}
+	
 
 /* Subscription form block */
 
@@ -206,7 +212,7 @@ width: 11.3em;
 	border: 0px solid grey;
 	padding: 15px;
 	position: relative;
-	top: -520px;
+	top: -479px;
 	left: 48px;
 	width: 170px;
 	padding-bottom: 0px;
@@ -330,7 +336,7 @@ input#submit-form {
 	}
 	
 #block-views-favicon-gallery-block {
-	position: static;
+/*	position: static; */
 	}
 
 #block-system-powered-by {
