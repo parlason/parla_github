@@ -22,7 +22,7 @@
 
 #block-block-9, #block-block-10 {
 position: relative;
-top: -33.5em;
+top: -30.7em;
 left: 4em;
 width: 11.3em;
 }
@@ -45,7 +45,7 @@ width: 11.3em;
     width: 200px;
 	background-color: #000;
     height: 320px;
-    left: 3em;
+    left: 2.9em;
     opacity: 0.4;
     z-index: -10;
     border: 1px solid;
@@ -197,6 +197,7 @@ width: 11.3em;
 	float: left;
 	left: 2em;
 	height: 40px;
+	width: 15em; /* Prevent favicon block from breaking */
 	}
 
 	
