@@ -179,7 +179,8 @@ margin: 0;
 	position: relative;
 	top: -2.2em;
 	left: 2em;
-	width: auto; /* 41em; */
+	width: auto;
+	padding-right: 1.5em;/* 41em; */
 	}
 
 
