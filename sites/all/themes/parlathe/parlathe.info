@@ -63,6 +63,7 @@ stylesheets[all][] = css/forms.css
 stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/basic-pages.css
 stylesheets[all][] = css/print.css
+stylesheets[all][] = css/ipad.css
 
 ; Set the conditional stylesheets that are processed by IE.
 ; stylesheets-conditional[lt IE 7][all][] = css/conditional/ie6-and-below.css
