@@ -243,7 +243,7 @@ margin-bottom: 7em;
 /* Concert theme page */
 .theme-link-text {
 	position: relative;
-	top: 12.8em;
+	top: 287px; /* 12.8em; */
 	left: 0.5em;
 	font-family: "de-walpergens-pica", serif;
 	font-family: josefin-sans, sans-serif;
@@ -262,11 +262,11 @@ margin-bottom: 7em;
 	}
 
 #theme-transparent-background-titleXX {
-	display: block;
+	/* display: block; */
 	position: absolute;
 	background-color: black;
     height: 31px;
-    width: 590px;
+    width: 50%;
     top: 1.6em;
     left: 0em;
     opacity: 0.4;
@@ -280,7 +280,7 @@ margin-bottom: 7em;
 	left: 1em;
 	font-size: 0.9em;
 	color: white;
-	width: 38.5em;
+	width: 570px; /* 38.5em; */
 	}
 
 .theme-presentation-text p {	
@@ -298,8 +298,8 @@ margin-bottom: 7em;
 	position: absolute;
 	background-color: black;
     height: 100px;
-    width: 590px;
-    top: 318px;
+    width: 100%;
+    top: 75%; /* 318px; */
     left: 0em;
     opacity: 0.4;
     }
@@ -308,7 +308,7 @@ margin-bottom: 7em;
 	position: absolute;
 	top: 415px;
 	z-index: 10;
-	width: 100%;
+	width: 600px;
 	}
    
 	
@@ -365,6 +365,14 @@ margin-bottom: 7em;
 .section-concert-theme .collapsible a.fieldset-title {
 	font-size: 1.2em;
 }
+
+.views-field-field-theme-image a:hover {
+	text-decoration: none;
+	}
+	
+.views-field-field-theme-image	.theme-link-text a:hover {
+	text-decoration: underline;
+	}
 
 /* ____________________________________________________________________ */
 
@@ -524,7 +532,7 @@ color: white;
 text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
 overflow:hidden;              /* don't show excess chars */
 white-space:nowrap;           /* force single line */
-width: 180px; /* fixed width */
+width: 13em;/* 180px; */ /* fixed width */
 font-size: 0.7em;
 } 
 
@@ -537,13 +545,14 @@ position: relative;
 } 
 
 .video-index-title-background-transparent {
+display: block;
 background-color: green;
 height: 19px;
 left: -0px;
 opacity: 0.6;
 position: absolute;
-top: 128px;
-width: 194px;
+top: 128px; 
+width: 194px; 
 z-index: 3;
 }
 
