@@ -66,7 +66,7 @@ li a.active {
 #navigation {
 	position; absolute;
 	top: 1em;
-	left: 0.5em;
+	/* left: 0.5em; */
 	}
 
 #navigation ul.links li,

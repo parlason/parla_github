@@ -87,12 +87,14 @@ width: 11.3em;
 
 #block-locale-language {
 	border: medium none;
+	dispaly: block;
 	position: relative;
 	left: 6.1em;
 	top: -3.3em;
-	width: 9.5em;
+	width: auto; /* 9.5em; */
 	margin-bottom: 0em;
 	}
+
 
 #block-locale-language ul {
 	font-size: 0.7em;
